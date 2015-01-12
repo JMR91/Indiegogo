@@ -1,0 +1,50 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                               xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                               Id="dbfdc4a1-0e10-4777-a3d8-85bd16c1657b" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="150" Height="211" Background="#00FFFFFF" Id="8022e342-30e8-4329-aa8b-a1c9e1cbf401">
+            <BorderedContent.Layers>
+                <Layer Id="d142607c-43f5-47ab-9049-5f4e1cad1142" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2f74ef30-bcd5-41f1-b94e-7dfcf6ed87ba" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="d9a1eeed-7fa4-4431-a46e-9b74d50e939d" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="ea101cae-d78b-4066-8f2b-78c15d01ceb0" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Initial state" Created="01/12/2015 06:33:15" Id="ac91793c-bc9e-45a8-b206-6119e2da5a6a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a1e5330f-0ce2-452f-a69e-2e593c7e0c97">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d142607c-43f5-47ab-9049-5f4e1cad1142">
+                            <Add.Item>
+                                <Tree Id="5da48b14-17f9-453e-9fa2-5aac836f2cf3" Panel.Bounds="0,0,150{5,2147483647},211{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Estacionamiento 1" Id="762e5b9d-1514-496a-97f3-c28a795310d5" />
+                                        <TreeItem Text="Total/Disp" Id="c499b44f-594d-4025-b7f3-30de7d863c95" />
+                                        <TreeItem Text="40/35" Id="e3de0649-56d8-4883-be9a-47497a4ce19e" />
+                                        <TreeItem Text="Tarifa" Id="91666a34-ad8b-4006-84b1-29761b21e414">
+                                            <TreeItem.Children>
+                                                <TreeItem Text="$24/hr" Id="a57db257-acc2-452a-83b3-7370298a87f3" />
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                        <TreeItem Text="Horario" Id="d47fe970-08fe-4140-b9d5-4c16608f0b10" />
+                                        <TreeItem Text="8:00 am - 10:00 pm" Id="8188acf4-7987-415b-9a37-2ca017c7d2ab" />
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

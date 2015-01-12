@@ -1,0 +1,191 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="f51301ff-087a-42f3-b2ad-f3818329660b">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="712cf918-1fff-4b35-9dcc-8b6aade5b1bc">
+            <Content.Layers>
+                <Layer Id="124e97c4-2112-4996-88ce-37a93be2e4d3" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2ef9248a-e58e-43c6-8179-37d651531467" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="b2a13f5d-b1c5-4f96-90b6-3532ae1e4fd5" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="f2f13ea8-4c2a-4667-b109-b790abc041a4" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/12/2015 04:34:08" Id="577267fa-26ef-4702-8e73-2e6f0b404c6e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7f6ba184-d1d3-414d-bbc1-e01a8158d4e1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="124e97c4-2112-4996-88ce-37a93be2e4d3">
+                            <Add.Item>
+                                <Tabs Id="5f680a17-41a4-4228-a13c-8dbc61b72650" Panel.Bounds="0,0,359{5,2147483647},639{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Mapa" IsSelected="True" Id="1d750db2-ac83-4300-bf0a-3f7c67d56f80">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                                                    <Container.Children>
+                                                        <Image SourcePath="assets/mapita.png" Id="c46ef305-d691-4b83-858d-d5a39571f87c" Panel.Bounds="1,107,356{5,2147483647},438{5,2147483647}" />
+                                                        <Label Text="Radio de busqueda" Id="9febd883-bbfa-4c99-b02f-5f3acfad167e" Panel.Bounds="20,21,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Slider Value="27" Id="fafcf39f-8dc5-4880-a271-36a186eb4d3d" Panel.Bounds="164,21,100{5,2147483647},5*{5,2147483647}" />
+                                                        <Label Text="256 m" Id="07eada47-9aa6-4ff8-a251-227c92213bcd" Panel.Bounds="195,39,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Mostrar" Id="32dcac8c-3827-400f-8d8d-06e619f0c39c" Panel.Bounds="36,59,80{5,2147483647},35{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandSwitchTo SceneId="0af28999-6e7e-4867-a86c-02aca057a39a" Created="01/12/2015 06:35:29" Id="97445ff1-1660-4f07-8df3-2d06c5587264" />
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <Icon CatalogId="fa-truck" Id="3c6b421e-b3c6-4c9b-9a0f-d70bbcea234a" Panel.Bounds="184,293,32{5,2147483647},32{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Historial" Id="ea167fe7-1b77-41bf-ba9e-f8f1ab0dda65">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="6118e3fb-15ba-4e90-9915-2836c5211869">
+                                                    <Container.Children>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="e5587078-ec76-4736-a0f8-6af2498bc47a" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Borrar Historial" Id="f9e4d75c-c846-4b27-bf1d-da6808047f9a" Panel.Bounds="126,568,107{5,2147483647},35{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandSwitchTo SceneId="cc0133c8-763f-44fd-9ecd-918ba08f4a97" Created="01/12/2015 06:43:33" Id="193e1c4a-eae9-4e8b-95b7-c542bf894381" />
+                                                            </Button.Click>
+                                                        </Button>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Preferencias" Id="967bee4c-1dc1-4cc0-9df0-2795d3de32a9">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c57f0ccc-c1fe-4cb8-906a-94ddf55aecd7">
+                                                    <Container.Children>
+                                                        <Button Text="Salir" Id="d1575c2e-7540-46df-be43-03fcc144ad08" Panel.Bounds="139,562,80{5,2147483647},35{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Mostrar" StateGroup="577267fa-26ef-4702-8e73-2e6f0b404c6e" ParentScene="577267fa-26ef-4702-8e73-2e6f0b404c6e" Created="01/12/2015 06:35:29" Id="0af28999-6e7e-4867-a86c-02aca057a39a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f299aecf-42e3-4aaf-a5af-b552b20511d0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon Color="#FFE70000" CatalogId="Locate" Id="76fc9110-063b-4962-983e-0f37d8b75894" Panel.Bounds="121,382,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon Color="#FF48C157" CatalogId="Locate" Id="1143ee1c-bd02-46e7-812f-9da26e85e7b9" Panel.Bounds="289,165,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="8c36ad3f-aeb9-449f-bf65-3ecdfeb55dde" Created="01/12/2015 06:37:20" Id="4f505cd2-b518-4a7c-b801-bef713d1a5da" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon Color="#FFFFFF55" CatalogId="Locate" Id="677035e0-e6a4-47ca-b0ca-ed1792266035" Panel.Bounds="264,443,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Locate" StateGroup="0af28999-6e7e-4867-a86c-02aca057a39a" ParentScene="0af28999-6e7e-4867-a86c-02aca057a39a" Created="01/12/2015 06:37:20" Id="8c36ad3f-aeb9-449f-bf65-3ecdfeb55dde">
+            <Scene.KeyFrames>
+                <KeyFrame Id="162dac6b-8820-4c54-9016-628d512e5c01">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart2.screenpart" Id="dbd8bf2a-661f-4d13-b86e-a4877efa7d9f" Panel.Bounds="128,133,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon CatalogId="fa-wheelchair" Id="e5ac31bb-f439-4952-9466-0c8fb209d406" Panel.Bounds="140,298,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cutlery" Id="60f2a48a-a3ba-45b4-b3b3-36551a3a3767" Panel.Bounds="187,298,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon CatalogId="Checkout" Id="473a4ff1-f3c6-47bd-a0b7-209de380379e" Panel.Bounds="236,298,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Icon CatalogId="Left Fill Triangle" Id="4aa23e73-4e27-4f49-9b7a-c220520575fd" Panel.Bounds="259,165,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Button Text="Ir" Id="462e6493-e970-4124-ae2e-8a23749decca" Panel.Bounds="20,554,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Button Text="Reservar" Id="259e8c15-3df1-4721-8eab-0027eee40894" Panel.Bounds="139,554,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d8810f61-e0d0-4b67-982b-e9fcc107f5d6">
+                            <Add.Item>
+                                <Button Text="Favoritos" Id="127cac8a-39e3-4702-8f64-36bbfac57787" Panel.Bounds="252,554,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Borrar Historial" StateGroup="577267fa-26ef-4702-8e73-2e6f0b404c6e" ParentScene="577267fa-26ef-4702-8e73-2e6f0b404c6e" Created="01/12/2015 06:43:33" Id="cc0133c8-763f-44fd-9ecd-918ba08f4a97">
+            <Scene.KeyFrames>
+                <KeyFrame Id="73aed6ce-6a71-46b1-90b4-320ae3f789a2">
+                    <KeyFrame.Operations>
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.c39cdfb5-6850-4d86-8ab5-578a3519c537" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.ffe3bf3c-527a-4547-8057-adb86bbb5224" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.e217c1a2-084e-4e4d-8ca2-73fe79a1d552" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.ef72088c-7f59-4221-a131-ec56b137c3a5" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.01dfa88e-7930-4001-857e-8a70c4a6b8ad" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.c45896a1-cf9c-4811-b670-30dd2cefb725" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.e6d0d67e-38bd-46d4-a13b-e8dfcd81f3fb" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.5d0bdd1a-5fab-4712-b85b-be6c09977078" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.f5757490-ff33-4b91-94b7-ba53dce38291" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.0c967966-9374-4c55-9c19-b1b31152a974" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.8e08cef7-f854-4fb3-b6ac-e390eea64af5" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.3d96c78d-b7ca-460e-8350-9d2dc5a4140d" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.e5970aa5-1671-4be3-8b93-8a3850be29e4" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.6d154c16-0a19-4359-b332-a984451c43b8" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.7d3b8a97-91ad-480a-90a9-4c19e64b3309" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.1ece5846-660a-49de-b62e-cd212927cb31" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.7ec48c6b-519e-4e49-8772-a0614334b749" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.8f5da2fe-eb39-4971-a855-3ef4a9dadf08" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.24905a5a-a0fa-47ce-8b83-ccc2cc2ef62b" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.a99325ad-c1d6-4074-b0f1-68508596fbcf" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.8b95e0ff-0cbc-4c3e-af80-97872b33a87f" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.5751bbf6-d4ee-4f16-9610-6d2c3fe6c737" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.c29adbb1-88db-458e-bced-9b52c0c1b562" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.ef73f902-f366-4bc1-a58c-7985957e49ce" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.f651e621-57cf-4607-9cd2-86484fcc1f88" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.29b9334a-3d28-4759-9c77-bf4f79b03dbc" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.38de3f0b-ea44-49c9-a19d-4dfa508dbb64" />
+                        <Remove Target="e5587078-ec76-4736-a0f8-6af2498bc47a.7e444c43-bf20-4b68-b0e6-104b431f2f40" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

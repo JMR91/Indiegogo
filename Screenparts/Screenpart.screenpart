@@ -1,0 +1,69 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                               xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                               Id="a892b045-91af-4ad5-97fe-0d4b54024aca" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="359" Height="561" Background="#00FFFFFF" Id="9eb8c777-d34f-4161-a4c4-543ee148cdb0">
+            <BorderedContent.Layers>
+                <Layer Id="735def93-1b17-4d3b-b2ad-4cf79efee76a" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c8acb0af-c00d-4bfa-8f47-640f5bc7e364" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="da8a75fb-ed52-4424-8c30-a9733289ba5b" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="47ab4ef1-cfc7-4455-aa67-2d0309cae239" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Initial state" Created="01/12/2015 06:20:52" Id="d53ea167-d9d8-4e3d-8110-77f072899762">
+            <Scene.KeyFrames>
+                <KeyFrame Id="71c1e89e-ffc3-4b70-873e-0bc63dc81c94">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="735def93-1b17-4d3b-b2ad-4cf79efee76a">
+                            <Add.Item>
+                                <ListBox Id="e0fd7a9d-64a5-4051-8a82-2b74ffe8386b" Panel.Bounds="0,0,359{5,2147483647},561{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Nombre                     Fecha           Tiempo               Hora" Id="b0fb4057-2c66-4a7e-8c35-ccb108d749e6" />
+                                        <Item Text="Estacionamiento 1    12/01/15      00:35                 16:44" Id="7e444c43-bf20-4b68-b0e6-104b431f2f40" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="38de3f0b-ea44-49c9-a19d-4dfa508dbb64" />
+                                        <Item Text="Estacionamiento 1    24/12/14      00:15                 19:12" Id="29b9334a-3d28-4759-9c77-bf4f79b03dbc" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="f651e621-57cf-4607-9cd2-86484fcc1f88" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="ef73f902-f366-4bc1-a58c-7985957e49ce" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="c29adbb1-88db-458e-bced-9b52c0c1b562" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="5751bbf6-d4ee-4f16-9610-6d2c3fe6c737" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="8b95e0ff-0cbc-4c3e-af80-97872b33a87f" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="a99325ad-c1d6-4074-b0f1-68508596fbcf" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="24905a5a-a0fa-47ce-8b83-ccc2cc2ef62b" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="8f5da2fe-eb39-4971-a855-3ef4a9dadf08" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="7ec48c6b-519e-4e49-8772-a0614334b749" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="c39cdfb5-6850-4d86-8ab5-578a3519c537" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="ffe3bf3c-527a-4547-8057-adb86bbb5224" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="e217c1a2-084e-4e4d-8ca2-73fe79a1d552" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="ef72088c-7f59-4221-a131-ec56b137c3a5" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="01dfa88e-7930-4001-857e-8a70c4a6b8ad" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="c45896a1-cf9c-4811-b670-30dd2cefb725" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="e6d0d67e-38bd-46d4-a13b-e8dfcd81f3fb" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="5d0bdd1a-5fab-4712-b85b-be6c09977078" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="f5757490-ff33-4b91-94b7-ba53dce38291" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="0c967966-9374-4c55-9c19-b1b31152a974" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="8e08cef7-f854-4fb3-b6ac-e390eea64af5" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="3d96c78d-b7ca-460e-8350-9d2dc5a4140d" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="e5970aa5-1671-4be3-8b93-8a3850be29e4" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="6d154c16-0a19-4359-b332-a984451c43b8" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="7d3b8a97-91ad-480a-90a9-4c19e64b3309" />
+                                        <Item Text="Estacionamiento 2    01/01/15      00:12                 08:20" Id="1ece5846-660a-49de-b62e-cd212927cb31" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

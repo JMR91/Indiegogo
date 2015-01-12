@@ -1,0 +1,84 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="c8d7f2d3-cf55-47f4-9344-4a278c0d5ab0">
+    <Page.Content>
+        <Content Width="360" Height="640" Id="1db07a2c-82c5-445f-9931-ec1e30d751f8">
+            <Content.Layers>
+                <Layer Id="d77b441f-7975-4630-bbbf-44464425f16d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="08b13920-2a8c-4d39-bcbe-945fc634f19d" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,640" Id="4561256f-b35a-4907-a116-f08642c5e70f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="6957b783-5f63-44e1-8c1a-8533b1cea2d9" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/12/2015 04:07:53" Id="dab25e7b-b17e-4a03-89ba-404bf0f55063">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3bc239a9-b331-4674-a416-1dfecbdc7ae1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Button Text="Entrar" Id="1d269de1-95ce-4acb-be28-785c0e762ae4" Panel.Bounds="90,361,172{5,2147483647},41{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Phone/Pantalla principal.screen" Created="01/12/2015 04:34:08" Id="4cf95b89-01a9-4da2-8d6e-cd01086153cc">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Title Text="NompreApp" Id="09cff973-5fd6-49ab-80b0-d09f4be2403f" Panel.Bounds="79,92,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Image SourcePath="assets/iconoApp.jpeg" Id="065c9b31-7dd5-49c8-beb9-d612ab362e75" Panel.Bounds="147,21,60{5,2147483647},61{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <TextBox Id="8d948032-e6c9-44e4-94c7-d2d16088b1e8" Panel.Bounds="75,235,202{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <PasswordBox Id="da79d9ce-e90f-4881-8181-6fee377c6656" Panel.Bounds="75,296,202{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Label Text="Nombre de usuario" FontSize="16" Id="e8665200-0f50-4c50-871b-45dcc0b7e40f" Panel.Bounds="79,205,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Label Text="Contraseña" FontSize="16" Id="965f5d59-5d27-4440-97b7-5392902a254e" Panel.Bounds="79,268,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Label Text="Olvide mi contraseña" Foreground="#FF4281D0" FontSize="18" Id="244f29a4-4cf8-47c9-89c5-20ee403948b3" Panel.Bounds="84,431,192{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d77b441f-7975-4630-bbbf-44464425f16d">
+                            <Add.Item>
+                                <Label Text="Usuario nuevo (Registrarse)" Foreground="#FF4281D0" FontSize="18" Id="366643a3-108d-4b41-9c6e-6c0cafd169c0" Panel.Bounds="59,477,241{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
